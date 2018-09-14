@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MacBlog.DAL.Modelo.Categoria>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">Categorias</div>
+    <div class="panel-body">
+
+        <p>
+            @Html.ActionLink("Criar Nova Categoria", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CategoriaNome)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoriaNome)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.CategoriaId }) |
+                        @Html.ActionLink("Detalhes", "Details", new { id = item.CategoriaId }) |
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.CategoriaId })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

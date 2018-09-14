@@ -1,0 +1,77 @@
+﻿@model MacBlog.DAL.Modelo.Blog
+
+@{
+    ViewBag.Title = "Details";
+}
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">
+        <div class="display-field">
+            <h3>    @Html.DisplayFor(model => model.Titulo)</h3>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="display-label">
+            <b> Categoria:</b>
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Categoria.CategoriaNome)
+        </div>
+
+        <div class="display-label">
+            <b> Conteúdo: </b>
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Corpo)
+        </div>
+
+        <div class="display-label">
+            <b>@Html.DisplayNameFor(model => model.CriadoEm)</b>
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.CriadoEm)
+        </div>
+
+        <div class="display-label">
+            <b>@Html.DisplayNameFor(model => model.AtualizadoEm)</b>
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.AtualizadoEm)
+        </div>
+
+        <div class="display-label">
+            <b>Author: </b>
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Usuario.NomeUsuario)
+        </div>
+
+        <p>
+            @{
+                if (User.Identity.Name == Model.Usuario.NomeUsuario)
+                {
+                    @Html.ActionLink("Atualizar este Blog", "Edit", new { id = Model.BlogId })
+                    <text>|</text>
+                    @Html.ActionLink("Deletar este Blog", "Delete", new { id = Model.BlogId })
+                }
+            }
+            |
+            @Html.ActionLink("Postar um Comentário", "CreateComment", new { BlogId = Model.BlogId }, null) |
+            @Html.ActionLink("Retornar", "Index")
+        </p>
+
+        <div class="macpanel panel panel-info">
+            <div class="panel-heading panel-head">
+                <b>Comentários:</b> @Model.Comentarios.Count()
+                @foreach (MacBlog.DAL.Modelo.Comentario item in Model.Comentarios)
+                {
+                    <hr />
+                    <p>
+                        @item.Corpo
+                        <br />
+                        <b>Postado por: </b> @item.Usuario.NomeUsuario
+                    </p>
+                }
+                </div>
+            </div>
+       </div>
+   </div>

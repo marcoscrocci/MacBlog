@@ -1,0 +1,61 @@
+﻿@model MacBlog.DAL.Modelo.Blog
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">Atualizar Blog</div>
+    <div class="panel-body">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.BlogId)
+                @Html.HiddenFor(model => model.CriadoEm)
+                @Html.HiddenFor(model => model.AutorId)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Titulo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Titulo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Titulo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("Selecione a Categoria", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("CategoriaId", new SelectList(ViewBag.CategoriaLista, "CategoriaId", "CategoriaNome"))
+                        @Html.ValidationMessageFor(model => model.CategoriaId)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Corpo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Corpo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Corpo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Salvar Alterações" class="btn btn-success" />
+                    </div>
+                </div>
+            </div>
+        }
+        <div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    @Html.ActionLink("Retornar", "Index")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

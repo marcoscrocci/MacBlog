@@ -1,0 +1,89 @@
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\csc.exe
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\System.Collections.Immutable.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\System.Reflection.Metadata.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\vbc.exe
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\VBCSCompiler.exe
+c:\_mvc\MacBlog\MacBlog.Web\bin\roslyn\VBCSCompiler.exe.config
+c:\_mvc\MacBlog\MacBlog.Web\bin\MacBlog.Web.dll.config
+c:\_mvc\MacBlog\MacBlog.Web\bin\MacBlog.Web.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\MacBlog.Web.pdb
+c:\_mvc\MacBlog\MacBlog.Web\bin\EntityFramework.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\EntityFramework.SqlServer.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\MacBlog.DAL.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\PagedList.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\PagedList.Mvc.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Helpers.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Mvc.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Razor.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Deployment.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Webpages.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Razor.dll
+c:\_mvc\MacBlog\MacBlog.Web\bin\MacBlog.DAL.pdb
+c:\_mvc\MacBlog\MacBlog.Web\bin\EntityFramework.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\EntityFramework.SqlServer.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\PagedList.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\PagedList.Mvc.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Razor.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Webpages.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Deployment.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Razor.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Helpers.xml
+c:\_mvc\MacBlog\MacBlog.Web\bin\System.Web.Mvc.xml
+c:\_mvc\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.csprojResolveAssemblyReference.cache
+c:\_mvc\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.dll
+c:\_mvc\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.csprojAssemblyReference.cache
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.csproj.CoreCompileInputs.cache
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\csc.exe
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\vbc.exe
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\VBCSCompiler.exe
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\MacBlog.Web.dll.config
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\MacBlog.Web.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\MacBlog.Web.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\EntityFramework.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\EntityFramework.SqlServer.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\MacBlog.DAL.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\PagedList.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\PagedList.Mvc.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Helpers.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Mvc.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Razor.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Webpages.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Razor.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\MacBlog.DAL.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\MacBlog.DAL.dll.config
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\EntityFramework.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\EntityFramework.SqlServer.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\PagedList.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\PagedList.Mvc.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Razor.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Webpages.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Webpages.Razor.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Helpers.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\bin\System.Web.Mvc.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.Web\obj\Debug\MacBlog.Web.csproj.CopyComplete

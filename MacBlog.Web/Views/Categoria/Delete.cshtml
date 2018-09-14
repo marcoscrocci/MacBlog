@@ -1,0 +1,36 @@
+﻿@model MacBlog.DAL.Modelo.Categoria
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">Deletar Categoria</div>
+    <div class="panel-body">
+
+        <h3>Deseja deletar esta categoria ?</h3>
+        <div>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.CategoriaNome)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CategoriaNome)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Deletar" class="btn btn-danger" /> |
+                    @Html.ActionLink("Retornar para Lista", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>

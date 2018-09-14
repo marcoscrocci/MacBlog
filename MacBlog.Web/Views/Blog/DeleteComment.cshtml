@@ -1,0 +1,77 @@
+﻿@model MacBlog.DAL.Modelo.Comentario
+
+@{
+    ViewBag.Title = "DeleteComment";
+}
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">Deletar Comentário</div>
+    <div class="panel-body">
+
+        <h3>Deseja deletar este comentário ?</h3>
+        <div>
+            <hr />
+            <dl class="dl-horizontal">
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.BlogId)
+                </dt>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PostId)
+                </dt>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Blog.Titulo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.BlogId)
+                </dd>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PostId)
+                </dd>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Blog.Titulo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Usuario.Email)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Usuario.Email)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Corpo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Corpo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CriadoEm)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CriadoEm)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Deletar Comentário" class="btn btn-danger" /> |
+                    @Html.ActionLink("Retornar", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>

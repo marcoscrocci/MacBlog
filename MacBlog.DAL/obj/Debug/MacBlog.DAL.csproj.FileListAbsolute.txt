@@ -1,0 +1,21 @@
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\MacBlog.DAL.dll.config
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\MacBlog.DAL.dll
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\MacBlog.DAL.pdb
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.dll
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.xml
+c:\_mvc\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\_mvc\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.dll
+c:\_mvc\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.csprojAssemblyReference.cache
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.csproj.CoreCompileInputs.cache
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\MacBlog.DAL.dll.config
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\MacBlog.DAL.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\MacBlog.DAL.pdb
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Marcos\Projetos\Github\Visual Studio\MacBlog\MacBlog.DAL\obj\Debug\MacBlog.DAL.csproj.CopyComplete

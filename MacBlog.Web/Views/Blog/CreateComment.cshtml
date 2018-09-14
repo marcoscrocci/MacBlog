@@ -1,0 +1,40 @@
+﻿@model MacBlog.DAL.Modelo.Comentario
+
+@{
+    ViewBag.Title = "CreateComment";
+}
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">Adicionar Comentário</div>
+    <div class="panel-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="editor-label">
+                    @Html.HiddenFor(model => model.BlogId)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Corpo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Corpo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Corpo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Postar Comentário" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        }
+        <div>
+            @Html.ActionLink("Retornar", "Index")
+        </div>
+    </div>
+</div>

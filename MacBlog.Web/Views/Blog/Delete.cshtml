@@ -1,0 +1,73 @@
+﻿@model MacBlog.DAL.Modelo.Blog
+@{
+    ViewBag.Title = "Delete";
+}
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">Deletar Blog</div>
+    <div class="panel-body">
+        <h3>Deseja deletar este Blog ?</h3>
+        <div>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Categoria.CategoriaNome)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Categoria.CategoriaNome)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Usuario.Email)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Usuario.Email)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Titulo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Corpo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Corpo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CriadoEm)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CriadoEm)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.AtualizadoEm)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.AtualizadoEm)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Deletar Blog" class="btn btn-danger" /> |
+                    @Html.ActionLink("Retornar", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>
